@@ -20,7 +20,10 @@ Schriften [Fraunces](https://github.com/undercasetype/Fraunces) und
 [Sora](https://fonts.google.com/specimen/Sora) stehen unter der
 [SIL Open Font License](https://scripts.sil.org/OFL). Die Karte im Kontaktbereich
 verlinkt [OpenStreetMap](https://www.openstreetmap.org/) statt eines proprietären
-Kartendienstes.
+Kartendienstes. Die Sektion „Kritische Karten“ verlinkt ebenfalls auf
+[OpenStreetMap](https://www.openstreetmap.org/); die darin enthaltene abstrakte
+Kartenillustration ist als eigenes, inline eingebettetes SVG erstellt und
+benötigt keine externe Bildquelle.
 
 ## Anpassung
 
