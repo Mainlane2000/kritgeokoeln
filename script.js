@@ -2,6 +2,12 @@ const sectionsContainer = document.querySelector("#sections");
 const navLinks = Array.from(document.querySelectorAll(".nav-link"));
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".main-nav");
+const earthToggle = document.querySelector(".earth-toggle");
+
+earthToggle?.addEventListener("click", () => {
+  const isFlat = earthToggle.getAttribute("aria-pressed") === "true";
+  earthToggle.setAttribute("aria-pressed", String(!isFlat));
+});
 
 if (menuToggle && nav) {
   menuToggle.addEventListener("click", () => {
