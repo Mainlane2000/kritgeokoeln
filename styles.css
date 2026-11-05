@@ -145,6 +145,21 @@ body {
   border-radius: clamp(16px, 2vw, 28px);
 }
 
+#themen .content-wrap {
+  border-bottom-left-radius: clamp(16px, 2vw, 28px);
+  border-bottom-right-radius: clamp(16px, 2vw, 28px);
+}
+
+#veranstaltungen .content-wrap {
+  border-top-left-radius: clamp(16px, 2vw, 28px);
+  border-top-right-radius: clamp(16px, 2vw, 28px);
+}
+
+#ideenpool .content-wrap,
+#kontakt .content-wrap {
+  border-radius: clamp(16px, 2vw, 28px);
+}
+
 .hero-grid,
 .section-grid {
   display: grid;
