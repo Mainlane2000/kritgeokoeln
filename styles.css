@@ -155,6 +155,11 @@ body {
   border-top-right-radius: clamp(16px, 2vw, 28px);
 }
 
+#reportagen .content-wrap {
+  border-bottom-left-radius: clamp(16px, 2vw, 28px);
+  border-bottom-right-radius: clamp(16px, 2vw, 28px);
+}
+
 #ideenpool .content-wrap,
 #kontakt .content-wrap {
   border-radius: clamp(16px, 2vw, 28px);
