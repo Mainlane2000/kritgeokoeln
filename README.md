@@ -12,6 +12,16 @@ von der direkten Anzeige der HTML-Datei entkoppelt.
 - `server.py`: Dependency-freier lokaler Webserver für die statischen Dateien
 - `.gitignore`: Ignoriert lokale Python- und Betriebssystemdateien
 
+## Quellen und Lizenzen
+
+Das Layout, die Texte, das CSS und das JavaScript sind eigens für dieses Projekt
+erstellt und enthalten keine übernommenen Code- oder Bild-Assets. Die verwendeten
+Schriften [Fraunces](https://github.com/undercasetype/Fraunces) und
+[Sora](https://fonts.google.com/specimen/Sora) stehen unter der
+[SIL Open Font License](https://scripts.sil.org/OFL). Die Karte im Kontaktbereich
+verlinkt [OpenStreetMap](https://www.openstreetmap.org/) statt eines proprietären
+Kartendienstes.
+
 ## Anpassung
 
 - Inhalte in den einzelnen `<section>`-Blöcken in `index.html` ersetzen.
